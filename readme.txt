@@ -5,7 +5,7 @@ This is code for a corresponding pair of a server and client for a chat protocol
 When ther server is running, clients can connect to it and send messages to other connected clients.
 
 Clients can see the username of the message senders and all clients must choose a username and enter an 
-existing password or create a password upon login.
+existing corresponding password or create a password upon login.
 
 ***COMPILATION and RUNNING****
 
