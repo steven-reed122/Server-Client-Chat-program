@@ -11,6 +11,9 @@ existing password or create a password upon login.
 
 !!!!!!!!!To compile all files use the "make" command in the terminal.!!!!!!!!
 
+I recommend downloading the files into folder and then working with them using a command line interface.
+I used the built in mac terminal. I used the gcc compiler and I am unsure how other compilers will function with this.
+
 All logical makefile commands are valid.
 server runs with "server_program"
 client runs with "client_program"
