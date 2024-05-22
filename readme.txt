@@ -17,11 +17,11 @@ client runs with "client_program"
 
 To compile the server program use the command: "make server_program" or
 
-gcc `flags` -o server_program server.c server_username_and_password_checker.c server_utilities.c
+gcc -o server_program server.c server_username_and_password_checker.c server_utilities.c
 
 To compile the client program use the command: "make client_program" or
 
-gcc `flags` -o client_program client.c
+gcc -o client_program client.c
 
 ***TIPS***
 
@@ -41,6 +41,8 @@ Be careful not to overload your computer as each client causes a noticable amoun
 considered to be an existing username. 
 To remove a username, go into the username_file_directory 
 and delete the file
+
+6) Look at the corresponding directories to see how username and password functions are implemented.
 
 ***HOW IT WORKS***
 
