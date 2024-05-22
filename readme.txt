@@ -1,3 +1,12 @@
+***DESCRIPTION***
+
+This is code for a corresponding pair of a server and client for a chat protocol.
+
+When ther server is running, clients can connect to it and send messages to other connected clients.
+
+Clients can see the username of the message senders and all clients must choose a username and enter an 
+existing password or create a password upon login.
+
 ***COMPILATION and RUNNING****
 
 !!!!!!!!!To compile all files use the "make" command in the terminal.!!!!!!!!
@@ -23,9 +32,10 @@ inside of the direcotry where you wish to execute the server program.
 It must be the first and only word you send in a message for this to work
 
 3) program will crash if you connect more than 100 clients. This is an arbitrary number. 
-To change this, go to main in server.c file an change #define MAX_CLIENTS line to any num
+To change this, go to server.c file and change #define MAX_CLIENTS line to any number.
+Be careful not to overload your computer as each client causes a noticable amount of lag.
 
-4) spaces are not valid password characters
+4) Spaces are not valid password characters
 
 5) If a file exists in the username_file_directory, the name of that file is 
 considered to be an existing username. 
@@ -53,9 +63,5 @@ username and the contents of the file are the corresponding password.
 
 ***CURRENT BUGS***
 
-1) Exiting the program as one user does not mean that someone else can 
-then use that same username. For some reason the username array is not 
-being cleared properly when a client exits.
-
-2) Program will crash if you connect more than 100 clients. 
+1) Program will crash if you connect more than 100 clients. 
 Check tip 3 to see how to fix this.
